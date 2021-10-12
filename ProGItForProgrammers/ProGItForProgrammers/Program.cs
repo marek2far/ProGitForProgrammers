@@ -2,14 +2,7 @@
 using System.Collections.Generic;
 
 namespace ProGItForProgrammers
-{
-    public class Book
-    {
-        public string Title { get; set; }
-        public List<string> Authors { get; set; }
-        public DateTime PublicationDate { get; set; }
-    }
-
+{    
     class Program
     {
         static void Main(string[] args)
